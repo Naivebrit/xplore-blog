@@ -1,0 +1,228 @@
+html
+{
+    min-width: 1000px;
+	min-height: 700px;
+	font: normal 15px Arial, sans-serif;
+	color: #C28E0E;
+	background: black;
+}
+
+.header
+{
+    background: none;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.button_area
+{
+    background: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button_area li
+{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+.button_area .one
+{
+    background: #4D4038;
+    color: #C28E0E;
+    position: relative;
+    right: 290px;
+    width: 100px;
+    border: 1px #C28E0E solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button_area .two
+{
+    background: #C28E0E;
+    color: black;
+    position: relative;
+    right: 155px;
+    width: 100px;
+    border: 1px #C28E0E solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button_area .three
+{
+    background: #C28E0E;
+    color: black;
+    position: relative;
+    left: -15px;
+    width: 100px;
+    border: 1px #C28E0E solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button_area .four
+{
+    background: #C28E0E;
+    color: black;
+    position: relative;
+    left: 115px;
+    width: 100px;
+    border: 1px #C28E0E solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button_area .five
+{
+    background: #C28E0E;
+    color: black;
+    position: relative;
+    left: 245px;
+    width: 100px;
+    border: 1px #C28E0E solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.content_area
+{
+    background: #4D4038;
+    display: block;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 490px;
+    border: 1px #C28E0E solid;
+    border-radius: 5px;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    border-radius: 5px;
+    background-color: #5e4e44;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    background-color: black;
+}
+
+.blog_area ul
+{
+    list-style-type: none;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.members_area
+{
+    display: none;
+    margin: 35px;
+    margin-left: 100px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.dan
+{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.rowan
+{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.nick
+{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.celeste
+{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.adam
+{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.timeline_area
+{
+    display: none;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.timeline_area img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 490px;
+}
+
+.photos_area
+{
+    display: none;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.links_area
+{
+    display: none;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.links_area a
+{
+    color: #C28E0E;
+}
